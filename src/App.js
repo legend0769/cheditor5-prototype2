@@ -49,7 +49,7 @@ const App = () => {
                     config={ editorConfiguration }
                     data={data}
                     onReady={ editor => {
-                        CKEditorInspector.attach( editor );
+                        //CKEditorInspector.attach( editor );
                         this.editor = editor;
                     } }
                     onChange={ ( event, editor ) => {
