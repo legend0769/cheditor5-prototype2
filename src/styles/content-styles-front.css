@@ -1,0 +1,467 @@
+/*
+Copyright (c) 2003-2012, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.html or http://ckeditor.com/license
+*/
+body {
+  /* Font */
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 12px;
+  /* Text color */
+  color: #222;
+  /* Remove the background color to make it transparent */
+  background-color: #fff;
+}
+
+ol, ul, dl {
+  /* IE7: reset rtl list margin. (#7334) */
+  margin-right: 0px;
+  /* preserved spaces for list items with text direction other than the list. (#6249,#8049)*/
+  padding: 0 40px;
+}
+
+.ck-content h1:not(.cke_panel_grouptitle) {
+  border: 2px solid #c056c0;
+  padding: 0px;
+  margin: 4px;
+}
+
+/* Apply nomal font size in CKEditor panel. */
+.ck-content ul.cke_panel_list h1 {
+  font-size: 12px;
+}
+
+.ck-content section#question {
+  border: 2px solid #ff6666;
+  padding: 0px;
+  margin: 4px;
+}
+
+.ck-content section#answer {
+  border: 2px solid #8888ff;
+  padding: 0px;
+  margin: 4px;
+}
+
+.ck-content section#kaisetsu {
+  border: 2px solid #33eeaa;
+  padding: 0px;
+  margin: 4px;
+}
+
+.ck-content section#sankouhourei {
+  border: 2px solid #ffaaff;
+  padding: 0px;
+  margin: 4px;
+}
+
+.ck-content section#hanrei {
+  border: 2px solid #ff9900;
+  padding: 0px;
+  margin: 4px;
+}
+
+.ck-content section#onepoint {
+  border: 2px solid #e4007f;
+  padding: 0px;
+  margin: 4px;
+}
+
+.ck-content section#enkaku {
+  border: 2px solid #A9A9A9;
+  padding: 0px;
+  margin: 4px;
+}
+
+.ck-content section#inin {
+  border: 2px solid #708090;
+  padding: 0px;
+  margin: 4px;
+}
+
+.ck-content section#bassoku {
+  border: 2px solid #4682B4;
+  padding: 0px;
+  margin: 4px;
+}
+
+.ck-content section.sankou {
+  border: 2px solid #00cc99;
+  padding: 0px;
+  margin: 4px;
+}
+
+.ck-content section.sankou_item {
+  border: 2px solid #B4C300;
+  padding: 0px;
+  margin: 4px;
+}
+
+.ck-content section.hanrei_item {
+  border: 2px solid #F7E33E;
+  padding: 0px;
+  margin: 4px;
+}
+
+.ck-content section#author {
+  border: 2px solid #FDD200;
+  padding: 0px;
+  margin: 4px;
+}
+
+.ck-content section.kanren {
+  border: 2px solid #b0c4de;
+  padding: 0px;
+  margin: 4px;
+}
+
+.ck-content section.jitsurei {
+  border: 2px solid #93ABAB;
+  padding: 0px;
+  margin: 4px;
+}
+
+.ck-content section.tsuti {
+  border: 2px solid #A5A051;
+  padding: 0px;
+  margin: 4px;
+}
+
+.ck-content section.sai_mokuji {
+  border: 2px solid #87CEEB;
+  padding: 0px;
+  margin: 4px;
+}
+
+.ck-content section.annotation {
+  border: 2px solid #C7E4F3;
+  padding: 0px;
+  margin: 4px;
+}
+
+.ck-content section.jirei {
+  border: 2px solid #cc6699;
+  padding: 0px;
+  margin: 4px;
+}
+
+.ck-content p.kaisetsu-mds {
+  border: 2px dashed #33eeaa;
+  padding: 0px;
+  margin: 4px;
+}
+
+.ck-content p.onepoint-mds {
+  border: 2px dashed #e4007f;
+  padding: 0px;
+  margin: 4px;
+}
+
+.ck-content p.sankouhourei-mds {
+  border: 2px dashed #aad5ff;
+  padding: 0px;
+  margin: 4px;
+}
+
+.ck-content p.sankouhourei-para {
+  border: 2px dashed #ffaaff;
+  padding: 0px;
+  margin: 4px;
+}
+
+.ck-content p.hanrei-mds {
+  border: 2px dashed #ff9900;
+  padding: 0px;
+  margin: 4px;
+}
+
+.ck-content p.hanrei-sub-mds {
+  border: 2px dashed #ffcc00;
+  padding: 0px;
+  margin: 4px;
+}
+
+.ck-content p.enkaku-para {
+  border: 2px dashed #A9A9A9;
+  padding: 0px;
+  margin: 4px;
+}
+
+.ck-content p.inin-para {
+  border: 2px dashed #708090;
+  padding: 0px;
+  margin: 4px;
+}
+
+.ck-content p.bassoku-para {
+  border: 2px dashed #4682B4;
+  padding: 0px;
+  margin: 4px;
+}
+
+/* indentation */
+.ck-content p.i_0_1 {
+  border: 1px solid #000000;
+  text-indent: -1em;
+  padding-left: 1em;
+}
+
+.ck-content p.i_0_2 {
+  border: 1px solid #000000;
+  text-indent: -2em;
+  padding-left: 2em;
+}
+
+.ck-content p.i_0_3 {
+  border: 1px solid #000000;
+  text-indent: -3em;
+  padding-left: 3em;
+}
+
+.ck-content p.i_0_4 {
+  border: 1px solid #000000;
+  text-indent: -4em;
+  padding-left: 4em;
+}
+
+.ck-content p.i_1_0 {
+  border: 1px solid #000000;
+  text-indent: 1em;
+  padding-left: 0em;
+}
+
+.ck-content p.i_1_1 {
+  border: 1px solid #000000;
+  text-indent: 0em;
+  padding-left: 1em;
+}
+
+.ck-content p.i_1_2 {
+  border: 1px solid #000000;
+  text-indent: -1em;
+  padding-left: 2em;
+}
+
+.ck-content p.i_1_3 {
+  border: 1px solid #000000;
+  text-indent: -2em;
+  padding-left: 3em;
+}
+
+.ck-content p.i_1_4 {
+  border: 1px solid #000000;
+  text-indent: -3em;
+  padding-left: 4em;
+}
+
+.ck-content p.i_2_1 {
+  border: 1px solid #000000;
+  text-indent: 1em;
+  padding-left: 1em;
+}
+
+.ck-content p.i_2_2 {
+  border: 1px solid #000000;
+  text-indent: 0em;
+  padding-left: 2em;
+}
+
+.ck-content p.i_2_3 {
+  border: 1px solid #000000;
+  text-indent: -1em;
+  padding-left: 3em;
+}
+
+.ck-content p.i_3_2 {
+  border: 1px solid #000000;
+  text-indent: 1em;
+  padding-left: 2em;
+}
+
+.ck-content p.i_3_3 {
+  border: 1px solid #000000;
+  text-indent: 0em;
+  padding-left: 3em;
+}
+
+.ck-content p.i_3_4 {
+  border: 1px solid #000000;
+  text-indent: -1em;
+  padding-left: 4em;
+}
+
+.ck-content p.i_4_3 {
+  border: 1px solid #000000;
+  text-indent: 1em;
+  padding-left: 3em;
+}
+
+.ck-content p.i_4_4 {
+  border: 1px solid #000000;
+  text-indent: 0em;
+  padding-left: 4em;
+}
+
+.ck-content p.i_4_5 {
+  border: 1px solid #000000;
+  text-indent: -1em;
+  padding-left: 5em;
+}
+
+.ck-content p.i_5_4 {
+  border: 1px solid #000000;
+  text-indent: 1em;
+  padding-left: 4em;
+}
+
+.ck-content p.i_5_5 {
+  border: 1px solid #000000;
+  text-indent: 0em;
+  padding-left: 5em;
+}
+
+.ck-content p.i_6_0 {
+  border: 1px solid #000000;
+  text-indent: 6em;
+  padding-left: 0em;
+}
+
+/* border */
+.ck-content .k-none {
+  border: none 1px #000000;
+}
+
+.ck-content .k-solid {
+  border: solid 1px #000000;
+}
+
+.k-dotted {
+  border: dotted 2px #000000;
+}
+
+.k-double {
+  border: double 3px #000000;
+}
+
+.k-dashed {
+  border: dashed 2px #000000;
+}
+
+.k-none-top {
+  border-top: none 1px #000000;
+}
+
+.k-solid-top {
+  border-top: solid 1px #000000;
+}
+
+.k-dotted-top {
+  border-top: dotted 2px #000000;
+}
+
+.k-double-top {
+  border-top: double 3px #000000;
+}
+
+.k-dashed-top {
+  border-top: dashed 2px #000000;
+}
+
+.k-none-right {
+  border-right: none 1px #000000;
+}
+
+.k-solid-right {
+  border-right: solid 1px #000000;
+}
+
+.k-dotted-right {
+  border-right: dotted 2px #000000;
+}
+
+.k-double-right {
+  border-right: double 3px #000000;
+}
+
+.k-dashed-right {
+  border-right: dashed 2px #000000;
+}
+
+.k-none-bottom {
+  border-bottom: none 1px #000000;
+}
+
+.k-solid-bottom {
+  border-bottom: solid 1px #000000;
+}
+
+.k-dotted-bottom {
+  border-bottom: dotted 2px #000000;
+}
+
+.k-double-bottom {
+  border-bottom: double 3px #000000;
+}
+
+.k-dashed-bottom {
+  border-bottom: dashed 2px #000000;
+}
+
+.k-none-left {
+  border-left: none 1px #000000;
+}
+
+.k-solid-left {
+  border-left: solid 1px #000000;
+}
+
+.k-dotted-left {
+  border-left: dotted 2px #000000;
+}
+
+.k-double-left {
+  border-left: double 3px #000000;
+}
+
+.k-dashed-left {
+  border-left: dashed 2px #000000;
+}
+
+dfn {
+  background-image: url("../../public/images/mesh_bg.gif");
+  background-color: lime;
+}
+
+span.cmt[title] {
+  background-image: url("../../public/images/mesh_bg.gif");
+  background-color: yellow;
+}
+
+span.c-m-cmt[title] {
+  background-image: url("../../public/images/mesh_bg.gif");
+  background-color: yellow;
+}
+
+span.c-p-cmt[title] {
+  background-image: url("../../public/images/mesh_bg.gif");
+  background-color: yellow;
+}
+
+span.m-c-cmt[title] {
+  background-image: url("../../public/images/mesh_bg.gif");
+  background-color: yellow;
+}
+
+span.m-p-cmt[title] {
+  background-image: url("../../public/images/mesh_bg.gif");
+  background-color: yellow;
+}
+
+span.p-m-cmt[title] {
+  background-image: url("../../public/images/mesh_bg.gif");
+  background-color: yellow;
+}
+
+span.alt[title] {
+  background-image: url("../../public/images/mesh_bg.gif");
+  background-color: cyan;
+}

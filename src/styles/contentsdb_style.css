@@ -1,0 +1,320 @@
+@charset "UTF-8";
+
+/* コンテンツ共通CSS（20210717） */
+
+/* インデント */
+p.i_0_1 {
+  text-indent: -1em;
+  padding-left: 1em;
+}
+
+p.i_0_2 {
+  text-indent: -2em;
+  padding-left: 2em;
+}
+
+p.i_0_3 {
+  text-indent: -3em;
+  padding-left: 3em;
+}
+
+p.i_0_4 {
+  text-indent: -4em;
+  padding-left: 4em;
+}
+
+p.i_1_0 {
+  text-indent: 1em;
+  padding-left: 0em;
+}
+
+p.i_1_1 {
+  text-indent: 0em;
+  padding-left: 1em;
+}
+
+p.i_1_2 {
+  text-indent: -1em;
+  padding-left: 2em;
+}
+
+p.i_1_3 {
+  text-indent: -2em;
+  padding-left: 3em;
+}
+
+p.i_1_4 {
+  text-indent: -3em;
+  padding-left: 4em;
+}
+
+p.i_2_1 {
+  text-indent: 1em;
+  padding-left: 1em;
+}
+
+p.i_2_2 {
+  text-indent: 0em;
+  padding-left: 2em;
+}
+
+p.i_2_3 {
+  text-indent: -1em;
+  padding-left: 3em;
+}
+
+p.i_3_2 {
+  text-indent: 1em;
+  padding-left: 2em;
+}
+
+p.i_3_3 {
+  text-indent: 0em;
+  padding-left: 3em;
+}
+
+p.i_3_4 {
+  text-indent: -1em;
+  padding-left: 4em;
+}
+
+p.i_4_3 {
+  text-indent: 1em;
+  padding-left: 3em;
+}
+
+p.i_4_4 {
+  text-indent: 0em;
+  padding-left: 4em;
+}
+
+p.i_4_5 {
+  text-indent: -1em;
+  padding-left: 5em;
+}
+
+p.i_5_4 {
+  text-indent: 1em;
+  padding-left: 4em;
+}
+
+p.i_5_5 {
+  text-indent: 0em;
+  padding-left: 5em;
+}
+
+p.i_6_0 {
+  text-indent: 6em;
+  padding-left: 0em;
+}
+
+/* 囲み */
+.k-none {
+  border: none 1px #000000;
+}
+
+.k-solid {
+  border: solid 1px #000000;
+}
+
+.k-thick {
+  border: solid 3px #000000;
+}
+
+.k-dotted {
+  border: dotted 2px #000000;
+}
+
+.k-double {
+  border: double 3px #000000;
+}
+
+.k-dashed {
+  border: dashed 2px #000000;
+}
+
+/* 上罫線 */
+.k-none-top {
+  border-top: none 1px #000000;
+}
+
+.k-solid-top {
+  border-top: solid 1px #000000;
+}
+
+.k-thick-top {
+  border-top: solid 3px #000000;
+}
+
+.k-dotted-top {
+  border-top: dotted 2px #000000;
+}
+
+.k-double-top {
+  border-top: double 3px #000000;
+}
+
+.k-dashed-top {
+  border-top: dashed 2px #000000;
+}
+
+/* 右罫線 */
+.k-none-right {
+  border-right: none 1px #000000;
+}
+
+.k-solid-right {
+  border-right: solid 1px #000000;
+}
+
+.k-thick-right {
+  border-right: solid 3px #000000;
+}
+
+.k-dotted-right {
+  border-right: dotted 2px #000000;
+}
+
+.k-double-right {
+  border-right: double 3px #000000;
+}
+
+.k-dashed-right {
+  border-right: dashed 2px #000000;
+}
+
+/* 下罫線 */
+.k-none-bottom {
+  border-bottom: none 1px #000000;
+}
+
+.k-solid-bottom {
+  border-bottom: solid 1px #000000;
+}
+
+.k-thick-bottom {
+  border-bottom: solid 3px #000000;
+}
+
+.k-dotted-bottom {
+  border-bottom: dotted 2px #000000;
+}
+
+.k-double-bottom {
+  border-bottom: double 3px #000000;
+}
+
+.k-dashed-bottom {
+  border-bottom: dashed 2px #000000;
+}
+
+/* 左罫線 */
+.k-none-left {
+  border-left: none 1px #000000;
+}
+
+.k-solid-left {
+  border-left: solid 1px #000000;
+}
+
+.k-thick-left {
+  border-left: solid 3px #000000;
+}
+
+.k-dotted-left {
+  border-left: dotted 2px #000000;
+}
+
+.k-double-left {
+  border-left: double 3px #000000;
+}
+
+.k-dashed-left {
+  border-left: dashed 2px #000000;
+}
+
+/* 斜線 */
+.k-lr{
+  background-image: linear-gradient(to top right, transparent, transparent 50%, black 49%, black 51%, transparent 51%, transparent);
+}
+.k-rl{
+  background-image: linear-gradient(to top left, transparent, transparent 50%, black 49%, black 51%, transparent 51%, transparent);
+}
+.k-cross{
+  background-image: linear-gradient(to top right, transparent, transparent 50%, black 49%, black 51%, transparent 51%, transparent),
+                  linear-gradient(to top left, transparent, transparent 50%, black 49%, black 51%, transparent 51%, transparent)
+}
+
+/* アミカケ */
+.b-light {
+  background-color: #d0d0d0;	/* 色は利用商品側の配色に合わせてください。*/
+}
+
+.b-normal {
+  background-color: #808080;	/* 色は利用商品側の配色に合わせてください。*/
+}
+
+.b-dark {
+  background-color: #505050;	/* 色は利用商品側の配色に合わせてください。*/
+}
+
+/* 大きい画像の縮小 */
+img{
+  max-width: 550px;	/* 値は利用商品側の横幅に合わせてください。*/
+}
+
+/* 分数表示 */
+span.bunsu{
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+span.sep:before {
+  content: '\a';
+  white-space: pre;
+}
+
+span.sep:after {
+  content: '\a';
+  white-space: pre;
+  display: block;
+  border-top: 1px solid black;
+}
+
+span.sep {
+  font-size: 0;
+  color: transparent;
+}
+
+/* 分行表示 */
+span.bungyo{
+  display: inline-block;
+  line-height: 1em;
+  text-align: left;
+  vertical-align: middle;
+}
+
+/* 多倍括弧（WEBでは非対応） */
+span.kakko{
+}
+
+/* 下線（IEでは非対応のスタイルあり） */
+.u-solid  { text-decoration: underline;  text-decoration-style: solid; }
+.u-dotted { text-decoration: underline;  text-decoration-style: dotted; }
+.u-dashed { text-decoration: underline;  text-decoration-style: dashed; }
+.u-double { text-decoration: underline;  text-decoration-style: double; }
+.u-wavy   { text-decoration: underline;  text-decoration-style: wavy; }
+
+.o-solid  { text-decoration: overline;  text-decoration-style: solid; }
+.o-dotted { text-decoration: overline;  text-decoration-style: dotted; }
+.o-dashed { text-decoration: overline;  text-decoration-style: dashed; }
+.o-double { text-decoration: overline;  text-decoration-style: double; }
+.o-wavy   { text-decoration: overline;  text-decoration-style: wavy; }
+
+.s-solid  { text-decoration: line-through; text-decoration-style: solid; }
+.s-dotted { text-decoration: line-through; text-decoration-style: dotted; }
+.s-dashed { text-decoration: line-through; text-decoration-style: dashed; }
+.s-double { text-decoration: line-through; text-decoration-style: double; }
+.s-wavy   { text-decoration: line-through; text-decoration-style: wavy; }
+
