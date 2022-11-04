@@ -10,7 +10,23 @@ import parse from 'html-react-parser'
 import CKEditorInspector from '@ckeditor/ckeditor5-inspector';
 
 const editorConfiguration = {
-    // toolbar: [ 'bold', 'italic' ]
+    toolbar: {
+		items: [
+			'heading',
+			'|',
+			'link',
+			'|',
+			'outdent',
+			'indent',
+			'|',
+			'imageUpload',
+			'insertTable',
+			'undo',
+			'redo',
+			'|',
+			'sourceEditing'
+		]
+	},
     heading: {
         options: [
             { model: 'heading1', view:'h1', title: '見出し：タイトル' },
@@ -50,7 +66,11 @@ const App = () => {
                     data={data}
                     onReady={ editor => {
                         //CKEditorInspector.attach( editor );
-                        this.editor = editor;
+                        // this.editor = editor;
+                        editor.model.document.on( 'change:data', ( evt, data ) => {
+                            console.log( data );
+                        } );
+                        
                     } }
                     onChange={ ( event, editor ) => {
                         const data = editor.getData();
@@ -67,8 +87,8 @@ const App = () => {
             </Col>
             <Col span={12}>
                 <Space>
-                    <Button onClick={()=>{setModel(1)}}>source model</Button>
-                    <Button onClick={()=>{setModel(2)}}>html model</Button>
+                    <Button onClick={()=>{setModel(1)}}>ソースモード</Button>
+                    <Button onClick={()=>{setModel(2)}}>電子版モード</Button>
                 </Space>
                 <br/>
                 <br/>
